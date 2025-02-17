@@ -1,0 +1,234 @@
+/*Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+/* Main styling */
+
+html,body {
+    font-family: Arial, sans-serif;
+    line-height: 1.7em;
+    background-color: #228B22;
+}
+a {
+    color:#333;
+    text-decoration: none;
+}
+h1, h2, h3 {
+    padding-bottom: 20px;  
+}
+p{
+    margin: 10px 0;
+}
+
+/* Utility classes*/
+.container {
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 20px;
+}
+.text-primary {
+    color: #f7c08a;
+}
+.lead {
+    font-size: 20px;
+}
+.btn {
+    display: inline-block;
+    font-size: 18px;
+    color: #fff;
+    background: forestgreen;
+    padding: 13px 20px;
+    border: none;
+    cursor: pointer;
+}
+.btn:hover {
+    background: forestgreen;
+    color: #333;
+}
+.btn-light{ 
+    background: #228B22;
+    color: #333;
+}
+
+.bg-dark {
+    background: #333;
+    color: #fff;
+}
+.bg-light {
+    background: #f4f4f4;
+    color: #333;
+}
+.bg-primary {
+    background: #333;
+    color: #f7c08a;
+}
+/* Navbar */
+#navbar {
+    background: forestgreen;
+    color: #fff;
+    overflow: auto;
+}
+
+#navbar  a {
+    color: white;
+}
+#navbar h1 {
+    float: left;
+    padding-top: 20px;
+}
+#navbar ul {
+    list-style: none;
+    float: right;
+}
+#navbar ul li {
+    float: left;
+}
+#navbar ul li a {
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+#navbar ul li a:hover {
+    background: #444;
+    color: forestgreen;
+}
+
+/* Showcase*/
+#showcase {
+    background: url('../img/pexels-rndiid-19507080.jpg') no-repeat center center/cover;
+    height: 600px;
+}
+#showcase .showcase-content {
+    color: #fff;
+    text-align: center;
+    padding-top: 170px;
+}
+#showcase .showcase content h1 {
+    font-size: 100px;
+    line-height: 1.2em; 
+}
+#showcase .showcase content p {
+    padding: 20px;
+    line-height: 1.7em;
+}
+/* Home info */
+#home-info {
+    height: 400px;
+}
+#home-info .info-img {
+    float: left;
+    width: 50%;
+    background: url('../img/pexels-thirdman-8923820.jpg') no-repeat center/cover;
+    min-height: 100%;
+}
+#home-info .info-conent {
+    float: right;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    padding: 50px 30px;
+    overflow: hidden;
+}
+#home-info .info-content p {
+    padding-bottom: 30px;
+}
+/* About info */
+#about-info .info-right {
+    float: left;
+    width: 50%;
+    min-height: 100%;
+}
+#about-info .info-right img {
+    display: block;
+    margin: auto;
+    width: 70%;
+}
+#about-info .info-left{
+    float: left;
+    width: 50%;
+    min-height: 100%;
+}
+.cta-btn {
+    display: inline-block;
+    background: forestgreen;
+    padding: 10px, 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+
+}
+#searchBar {
+    width: 60%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 2px solid  green;
+    outline: none;
+}
+#searchBar:focus {
+    border-color: #228B22;
+    box-shadow: 0 0 8px rgba(46, 139, 87, 0.5);
+}
+.search-container {
+    text-align: center;
+    margin: 20px 0;
+}
+.blog-posts{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+.blog-posts article {
+    background: forestgreen;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+.blog-posts article:hover {
+    transform: scale(1.05);
+}
+.blog-posts h2 {
+    color: forestgreen;
+    font-size: 1.5em;
+}
+.blog-posts .post-meta {
+    color: #228B22;
+    font-size: 0.9em;
+}
+.read-more {
+    color: forestgreen;
+    text-decoration: none;
+    font-weight: bold;
+}
+.read-more:hover {
+    text-decoration: none;
+}
+#contac-form .form-group {
+    margin-bottom: 20px;
+}
+#contact-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+#contact-form input,
+#contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px #ddd solid;
+}
+#contact-form textarea {
+    height: 200px;
+}
+
+footer {
+    background-color: #228B22;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
